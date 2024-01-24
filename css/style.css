@@ -1,0 +1,58 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del Body */
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Stile del bottone*/
+button {
+    cursor: pointer;
+    width: 165px;
+    height: 55px;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+    outline: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 8px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+}
+
+/* Stile dei paragrafi */
+p {
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.big-font {
+    font-size: 40px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
